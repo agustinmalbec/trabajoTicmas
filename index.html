@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curriculum vitae</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="encabezado">
+      <h1 id="nombre"></h1>
+      <ul class="lista">
+        <li><i class="fa-solid fa-user"></i><a href="#sobreMi">Sobre mi</a></li>
+        <li>
+          <i class="fa-solid fa-book"></i><a href="#educacion">Educacion</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-phone"></i
+          ><a href="#contacto">Datos de contacto</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section class="seccion" id="sobreMi">
+        <h2 class="titulos">Sobre mi</h2>
+        <div class="contenidoSobreMi">
+            <div class="divFoto">
+                <img src="" alt="Foto de perfil" id="foto" />
+            </div>
+            
+            <p class="textoSobreMi">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+              saepe eos et facere soluta ipsum, dignissimos, nostrum illo, voluptas
+              quasi dicta quae minus officia blanditiis aperiam. Laborum accusantium
+              voluptates optio. Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Vel maxime reiciendis natus, praesentium est quam dolor a
+              pariatur corporis mollitia error rerum autem molestiae necessitatibus
+              doloremque nam ex nihil illo.
+            </p>
+        </div>
+      </section>
+      <section class="seccion" id="educacion">
+        <h2 class="titulos">Educacion</h2>
+        <ul>
+          <li>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
+            animi, natus ipsum totam voluptatum odio eum adipisci quisquam,
+            aspernatur dolorum mollitia sed temporibus harum aliquam veniam,
+            debitis magnam! Dolorum, eligendi!
+          </li>
+          <li>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat
+            dolores dignissimos adipisci praesentium nostrum nulla deserunt, ea
+            laborum corrupti soluta quidem nihil eligendi, ipsa ducimus eum
+            pariatur enim incidunt quae.
+          </li>
+        </ul>
+      </section>
+      <section class="seccion" id="contacto">
+        <h2 class="titulos">Datos de contacto</h2>
+        <ul>
+          <li id="email"></li>
+          <li id="ubicacion"></li>
+          <li id="domicilio"></li>
+        </ul>
+        <button id="contactar" type="button">Contactame!</button>
+      </section>
+    </main>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
